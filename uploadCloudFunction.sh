@@ -1,0 +1,1 @@
+"/Applications/微信开发者工具 2.app/Contents/MacOS/cli" cloud functions deploy --e cloud1-8g52ppdg3187dc66 --n quickstartFunctions --r --project "/Users/chenkai/WeChatProjects/miniprogram-1" --report_first --report
