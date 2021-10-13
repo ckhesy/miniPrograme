@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
 
-  <view class="title">快速了解云开发</view>
+  <view class="title">快速了解云开发ok</view>
 
   <view class="top_tip">免鉴权接口调用 免部署后台 高并发</view>
 
@@ -24,7 +24,11 @@
       </view>
     </view>
   </view>
-
+  <view>
+    <open-data type="userAvatarUrl"></open-data>
+    <open-data type="userNickName"></open-data>
+  </view>
+  <image bindtap="ctripImageTouchmove" src="https://ak-d.tripcdn.com/images/200q0z000000nw2guD666_D_550_412_R5.jpg"></image>
   <view class="environment" bindtap="onChangeShowEnvChoose">当前环境 {{ selectedEnv.alias }}</view>
 
   <cloud-tip-modal showUploadTipProps="{{showUploadTip}}"></cloud-tip-modal>

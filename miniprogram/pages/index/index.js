@@ -6,7 +6,7 @@ Page({
   data: {
     showUploadTip: false,
     powerList: [{
-      title: '云函数',
+      title: `云函数test${+new Date()}`,
       tip: '安全、免鉴权运行业务代码',
       showItem: false,
       item: [{
@@ -87,7 +87,9 @@ Page({
       }
     });
   },
-
+  ctripImageTouchmove() {
+    console.log('000----')
+  },
   onChangeSelectedEnv(index) {
     if (this.data.selectedEnv.envId === this.data.envList[index].envId) {
       return;
